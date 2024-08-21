@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>Library</OutputType>
+		<IsPackable>true</IsPackable>
+	</PropertyGroup>
+
+
+	<PropertyGroup>
+		<PackageId>Omato.ServiceRegistrations</PackageId>
+		<Version>0.1.0</Version>
+		<Authors>Onkel Mato, Thomas Ley, CodeQualityCoach</Authors>
+		<Company>(C) Softwarekueche</Company>
+		<PackageTags>aspnet core;aspnet;Dependency Injection</PackageTags>
+		<Description>
+			This library contains helper for a seperation of concerns in service registration and middleware injection.
+		</Description>
+		<PackageProjectUrl>https://github.com/OnkelMato/ServiceRegistrations</PackageProjectUrl>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/OnkelMato/ServiceRegistrations.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Title>asp.net core Service Registrations</Title>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
